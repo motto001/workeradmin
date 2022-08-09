@@ -1,4 +1,4 @@
-require('./bootstrap');
+require('./bootstrap'); //---------------
 
 window.Vue = require('vue');
 
@@ -71,7 +71,7 @@ var app = new Vue({
         times: [],
         workerdays: [],
         basedays: [],
-        SumData: {}, //összesítet órá
+        SumData: {}, //összesítet órá n
         SumDays: {}, //összesítet napok
         SumTimes: {}, //összesítet idők
         test: {
